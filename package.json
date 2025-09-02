@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.2"
+  },
+  "scripts": {
+    "build": "ncc build index.js -o dist --minify"
   }
 }
