@@ -14,6 +14,10 @@ inputs:
   output-only:
     description: "Only output the new version for usage in another action"
     required: false
+  releaseType:
+    description: "Release type - regular or hotfix"
+    required: false
+    default: ""
 outputs:
   version:
     description: "Date version"

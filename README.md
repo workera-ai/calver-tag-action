@@ -13,6 +13,8 @@ If set, tag the version as prerelease - set to e.g. alpha or beta
 ### `output-only`
 Only outputs the new version and don't actually tag the commit
 
+### `releaseType`
+Optional, can be hotfix or regular, default is regular.
 
 ## Outputs
 
