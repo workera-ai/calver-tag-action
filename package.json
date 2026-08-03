@@ -1,19 +1,19 @@
 {
   "name": "calver-tag-action",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wendbv/calver-tag-action.git"
+    "url": "git+https://github.com/workera-ai/calver-tag-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wendbv/calver-tag-action-action/issues"
+    "url": "https://github.com/workera-ai/calver-tag-action/issues"
   },
-  "homepage": "https://github.com/wendbv/calver-tag-action-action#readme",
+  "homepage": "https://github.com/workera-ai/calver-tag-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.4",
