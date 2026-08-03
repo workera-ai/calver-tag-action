@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: wendbv/calver-tag-action@v1
+      - uses: workera-ai/calver-tag-action@v2
 ```
 
 You can also pass in a prerelease and disable the prefix, this will generate a version like `2021.1.0-beta.0`.
@@ -46,7 +46,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: wendbv/calver-tag-action@v1
+      - uses: workera-ai/calver-tag-action@v2
         with:
           prerelease: beta
           prefix: ''
@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: wendbv/calver-tag-action@v1
+      - uses: workera-ai/calver-tag-action@v2
         id: tag-version
         with:
           output-only: true
