@@ -9,7 +9,7 @@ async function run() {
     const prerelease = getInput("prerelease", { required: false });
     const prefix = getInput("prefix");
     const outputOnly = getInput("output-only", { required: false }) === "true";
-    const releaseType = getInput("releaseType", { required: true }); // New parameter
+    const releaseType = getInput("release-type", { required: false });
 
     const currentVersionTag = await getCurrentTag();
 
