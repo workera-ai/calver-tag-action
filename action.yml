@@ -14,7 +14,7 @@ inputs:
   output-only:
     description: "Only output the new version for usage in another action"
     required: false
-  releaseType:
+  release-type:
     description: "Release type - regular or hotfix"
     required: false
     default: ""
@@ -22,5 +22,5 @@ outputs:
   version:
     description: "Date version"
 runs:
-  using: "node16"
+  using: "node24"
   main: "dist/index.js"
